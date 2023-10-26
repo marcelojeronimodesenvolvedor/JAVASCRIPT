@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sorteador</title>
+</head>
+
+<body>
+    <h1>SORTE GRANDE</h1>
+
+    <h2> Sortear um número</h2>
+
+
+    <div>
+        <form>
+            
+            <input placeholder="EX:entre 10" class="min" type="number">
+
+            <input placeholder="e 20" class="max" type="number">
+
+            <h3 class="result" id="resultado">Resultado</h3>
+
+            <button type="reset" onclick="resetNumber()" class="limpar" id="zerar">Redefinir</button>
+        </form>
+        <button onclick="generateNumber()">Sortear</button>
+       
+    </div>
+
+    
+</body>
+
+<footer>Develop By Marcelo Jeronimo</footer>
+
+    <script src="./script.js"></script>
+
+
+</html>

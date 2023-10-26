@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-image: url("assets/fundo-tela-1.jpg");
+    background-size: 20%;
+    width: 375px;
+    height: 712px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+main {
+    width: 375px;
+    height: 695px;
+    border-radius: 20px;
+    background: #d3d3d3 ;
+    margin-top: 20px;
+
+
+}
+
+.logo1 {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.converter {
+    display: inline;
+    margin-top: 140px;
+    margin-left: 24px;
+    margin-right: 271px;
+    margin-bottom: 6px;
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.Real {
+    width: 327px;
+    height: 48px;
+    margin-top: 10px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    color: #555;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    cursor: pointer;
+
+}
+
+.converterpara {
+    display: inline;
+    margin-left: 24px;
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.moedas {
+    width: 327px;
+    height: 48px;
+    margin-top: 10px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-left: 18px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    color: #555;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    cursor: pointer;
+
+}
+
+p {
+    width: 34px;
+    height: 18px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 317px;
+    margin-bottom: 4px;
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.valor1 {
+    width: 327px;
+    height: 48px;
+    margin-bottom: 38px;
+    padding-left: 18px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    color: #555;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    margin-left: 24px;
+    cursor: pointer;
+
+}
+
+.convert-button {
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    background: #772FD3;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.convert-button:hover {
+    opacity: 0.8;
+}
+
+.convert-button:active {
+    opacity: 0.6;
+
+}
+
+
+section {
+
+    margin-top: 36px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    background: #F4F4F4;
+
+}
+
+.Brasil {
+
+    width: 44px;
+    height: 44px;
+    margin-top: 12px;
+    margin-left: 139px;
+    margin-right: 144px;
+
+
+}
+
+.Brasil1 {
+    width: 28px;
+    height: 18px;
+    margin-top: -8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+
+}
+
+.valor2 {
+    width: 121px;
+    height: 18px;
+    margin-top: 2px;
+    margin-left: 100px;
+    margin-right: 106px;
+    display: block;
+    color: #555;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    border: none;
+    background: #F4F4F4;
+    text-align: center;
+
+}
+
+.seta {
+    width: 35px;
+    height: 49.939px;
+    margin-top: 15px;
+    margin-bottom: 13.06px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Dolar {
+    width: 44px;
+    height: 44px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+.Dolaramericano {
+    width: 105px;
+    height: 18px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #777;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+.valor3 {
+    width: 121px;
+    height: 18px;
+    margin-top: 2px;
+    margin-left: 105px;
+    margin-right: 100px;
+    margin-bottom: 13px;
+    display: block;
+    color: #555;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    border: none;
+    background: #F4F4F4;
+    text-align: center;
+
+}
+footer {
+    margin-top: 5px;
+    background: #d3d3d3 ;
+   } 
+
+
+.hs {
+    background: #d3d3d3 ; 
+    border-radius: 20px;
+    border: block 20px; 
+    position: block;
+
+    
+
+}

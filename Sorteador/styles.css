@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body {
+    background-image: url("./assets/fundo1.jpg");
+    background-size: 100%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+h1 {
+    
+    margin-left: 250px;
+    font-size: 100px;
+}
+
+
+
+
+h2 {
+    width: 299px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-left: 450px;
+    margin-bottom: 20px;
+
+}
+
+
+.min {
+    width: 342px;
+    height: 74px;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 14px;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.max {
+    width: 342px;
+    height: 74px;
+    margin-left: 40px;
+    border-radius: 14px;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 420px;
+    margin-right: 781px;
+    display: flex;
+    width: 342px;
+    height: 72px;
+    padding: 0px 76px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #AEC346;
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    color:black;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5px;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+buton:active {
+    opacity: 0.8;
+}
+
+.result {
+    width: 342px;
+    height: 72px;
+    margin-top: 20px;
+    margin-left: 420px;
+    border-radius: 14px;
+    color: #FFFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    padding-top: 7px;
+}
+
+h4 {
+    display: flex;
+    margin-left: 450px;
+    margin-top: 5px;
+
+
+}
+
+::placeholder {
+    color: antiquewhite;
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+h1 {
+    width: 100px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 345px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 14px;
+    background-color: aqua;
+
+
+
+
+}
+
+.start {
+    width: 342px;
+    height: 74px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 14px;
+    color: red;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+    border-radius: 14px;
+    background: green;
+    cursor: pointer;
+    box-sizing: border-box;
+
+
+
+}
+
+.stop {
+    width: 342px;
+    height: 74px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 14px;
+    color: red;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.9;
+    border-radius: 14px;
+    background: black;
+    cursor: pointer;
+    box-sizing: border-box;
+
+
+}
+
+.zerar {
+    width: 342px;
+    height: 74px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 14px;
+    color: red;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.9;
+    border-radius: 14px;
+    background: black;
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+.hs {
+    width: 342px;
+    height: 74px;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    font-size: 50px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+button:active {
+    opacity: 2;
+}
+
+footer {
+    width: 342px;
+    height: 74px; 
+    color:red;
+}
+
+body {
+    width: 800px;
+    height: 300px;
+    margin-left: 25%;
+
+
+
+
+
+}
+
+html {
+    background-size: 50%;
+    background-image: url("./assets/fundo.jpg")
+}
